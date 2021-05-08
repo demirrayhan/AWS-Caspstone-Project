@@ -4,7 +4,7 @@ apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
 TOKEN="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"
-git clone https://github.com/demirrayhan/AWS-Caspstone-Project.git
+git clone https://$TOKEN@github.com/demirrayhan/AWS-Caspstone-Project.git
 cd /home/ubuntu/AWS-Caspstone-Project
 apt install python3-pip -y
 apt-get install python3.7-dev libmysqlclient-dev -y
