@@ -3,7 +3,7 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="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"
+TOKEN="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"
 git clone https://$TOKEN@github.com/demirrayhan/AWS-Caspstone-Project.git
 cd /home/ubuntu/AWS-Caspstone-Project
 apt install python3-pip -y
